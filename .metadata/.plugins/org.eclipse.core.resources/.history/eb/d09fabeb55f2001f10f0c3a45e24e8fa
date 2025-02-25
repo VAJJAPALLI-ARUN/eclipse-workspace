@@ -1,0 +1,28 @@
+package com.arun.sample;
+
+import java.util.Scanner;
+
+public class Sample {
+	public void fun(int a, int b)
+	{
+		try {
+			System.out.println(a/b);
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter 2 ele");
+		int x=s.nextInt();
+		int y=s.nextInt();
+		Sample obj=new Sample();
+		obj.fun(x,y);
+
+		
+	}
+
+}
