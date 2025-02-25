@@ -10,21 +10,26 @@ public class WAP_5 {
 	public static void main(String []args) {
 		Scanner s=new Scanner(System.in);
 		System.out.println("enter  tym in min and sec");
-		int x=s.nextInt();
-		int k=s.nextInt();
-		x=x+(k*60);
+		int v=s.nextInt();
+		int n=s.nextInt();
+		public static void fun(x) {
 		if(x<60)
-			System.out.println("00h "+ "00m "+x+"s");
+			//System.out.println("00h "+ "00m "+x+"s");
 		if(x>60 && x<3600) {
 			int m=x/60;
 			int sec=x-(m*60);
-			System.out.println("00h "+ m+"m "+sec+"s");
+			//System.out.println("00h "+ m+"m "+sec+"s");
 		}
 		if(x>=3600) {
 			int h=x/3600;
 			int m=(x-(h*3600))/60;
 			int sec=x%60;
-			System.out.println(h+"h "+ m+"m "+sec+"s");
 		}
+		}
+		System.out.println(h+"h "+ m+"m "+sec+"s");
+		WAP_5 obj=new Wap_5;
+		obj.fun(v);
+		obj.fun(n);
 	}
+
 }

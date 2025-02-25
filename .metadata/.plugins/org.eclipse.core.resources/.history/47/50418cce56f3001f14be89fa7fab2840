@@ -12,7 +12,7 @@ public class WAP_5 {
 		System.out.println("enter  tym in min and sec");
 		int x=s.nextInt();
 		int k=s.nextInt();
-		x=x+(k*60);
+		x=x+(s*60);
 		if(x<60)
 			System.out.println("00h "+ "00m "+x+"s");
 		if(x>60 && x<3600) {

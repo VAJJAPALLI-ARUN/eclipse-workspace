@@ -3,23 +3,17 @@ package com.arun.sample;
 class BillGenerator{
 	private String  uscNo;
 	private String UserName;
-	public String getAdd() {
-		return add;
-	}
-	public void setAdd(String add) {
-		this.add = add;
-	}
 	private String add;
 	private int prevUnits;
 	private int currUnit;
 	
 	public String getUcsNo()
 	{
-		return uscNo;
+		return uscNO;
 	}
 	public void setUscNo(String ucsNo)
 	{
-		this.uscNo=uscNo;
+		this.uscNO=uscNo;
 	}
 	
 }
