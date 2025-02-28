@@ -1,0 +1,26 @@
+package com.arun.sample;
+import java.util.*;
+public class WAP_11 {
+	public static void main(String []args)
+	{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter a num");
+	int k=sc.nextInt();
+	int s=0,r,a=k;
+	while(a>=10)
+	{
+	k=a;	
+	while(k>0)
+	{
+		r=k%10;
+		s+=r;
+		k=k/10;
+	}
+	a=s;
+	}
+	if (k==1)
+		System.out.println("magic"+k);
+	else
+		System.out.println("not"+k);
+	}
+}
