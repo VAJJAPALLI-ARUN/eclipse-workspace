@@ -9,6 +9,7 @@ public class WAP_15 {
 		for(int i=0;i<as.length();i++) {
 			System.out.print(s[as.charAt(i) - '0']+" ");
 		}
+	
 	}
 
 }
